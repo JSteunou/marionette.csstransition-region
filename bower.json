@@ -1,0 +1,19 @@
+{
+  "name": "marionette.csstransition-region",
+  "version": "0.1.0",
+  "homepage": "https://github.com/JSteunou/marionette.csstransition-region",
+  "authors": [
+    "Jérôme Steunou <jerome.steunou+github@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "marionette": "marionettejs/backbone.marionette#minor"
+  }
+}
