@@ -44,7 +44,7 @@
 /*
  * FadeView
  * --------
- * A fade view that just have transition in & out classes
+ * A fade view that just have transition in
  */
 
 (function() {
@@ -52,8 +52,7 @@
     template: _.template('<h1>Fading View</h1><div>A random name: <%= randomName %></div>'),
     className: 'fading-view view',
 
-    transitionIn: 'transition-in',
-    transitionOut: 'transition-out'
+    transitionIn: 'transition-in'
 
   });
 
