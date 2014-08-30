@@ -2,19 +2,21 @@
 <html lang='en'>
 <head>
   <meta charset='utf-8'>
-  <title>Transition Region</title>
+  <title>CSS Transition Region</title>
   <link rel='stylesheet' href='style.css'>
 </head>
 <body>
-  <h1>Transition Region</h1>
+  <h1>CSS Transition Region</h1>
   <p>
     This is a region that supports animated views. It's backwards compatible with normal regions, so you should be able to
     swap this in for Marionette.Region in all situations.
   </p>
   <p>
-    This is possible because the region delegates the animation to the views. Enjoy the demo below!
+    It delegates animation to CSS by adding classes read from views properties.
   </p>
 
+
+  <h3>No transitions, simple view in a transition region, no effect</h3>
   <div class='button-group'>
     <button class='show-normal'>Show No Transition</button>
     <button class='empty-normal'>Empty Region</button>
@@ -23,6 +25,7 @@
     <div class='normal-region region'></div>
   </div>
 
+  <h3>Transition in only, see the blank flash when previous view is destroyed</h3>
   <div class='button-group'>
     <button class='fade-in'>Show FadeView</button>
     <button class='empty-fade'>Empty Region</button>
@@ -31,6 +34,7 @@
       <div class='fade-region region'></div>
   </div>
 
+  <h3>Transition in & out, kind of a slider, but could be better</h3>
   <div class='button-group'>
     <button class='slide-in'>Show SlideView</button>
     <button class='empty-slide'>Empty Region</button>
